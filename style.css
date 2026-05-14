@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  text-align: center;
+  text-align: middle;
+  .container {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  height: 200px;           /* Container must have a height */
+}
+
+}
+h1 {
+    color: black;
+    text-align: center;
+    
+}
+p {
+    color:black ;
+    text-align: center;
+}
+body {
+  background-image: url('Historical\ Background_pic_preview.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: keeps background static while scrolling */
+  background-size: cover; /* Best for filling the screen */
+}
